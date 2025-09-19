@@ -100,22 +100,24 @@ h1 {
 
 /* Responsive improvements */
 /* Responsive improvements */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .categories {
     grid-template-columns: 1fr; /* single column layout */
   }
-
+  .category {
+    padding: 10px;
+  }
   .category img {
     width: 80px;
     height: 80px;
   }
 
   h1 {
-    font-size: 24px; /* smaller heading */
+    font-size: 22px; /* smaller heading */
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #options button {
@@ -123,9 +125,6 @@ h1 {
     padding: 10px;
   }
 
-  .container {
-    padding: 15px;
-  }
 
   .quiz-header {
     flex-direction: column;
@@ -133,5 +132,6 @@ h1 {
     font-size: 14px;
   }
 }
+
 
 
