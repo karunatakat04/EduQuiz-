@@ -5,7 +5,9 @@
   --error-color: #F44336;
   --neutral-bg: #f9f9f9;
 }
-
+body { 
+  background: yellow !important;
+}
 body {
 
   font-family: 'Arial', sans-serif;
@@ -132,6 +134,7 @@ h1 {
     font-size: 14px;
   }
 }
+
 
 
 
