@@ -59,10 +59,10 @@ document.querySelectorAll('.category').forEach(el => {
 const nextBtn = document.getElementById('next-btn');
 nextBtn.addEventListener('click', nextQuestion);
 
-// Avoid global variables by wrapping quiz logic in an IIFE or module
+
 let currentCategory, currentQuestion = 0, score = 0, timer, timeLeft = 30;
 
-// Use safe data structures for quizData as before...
+
 
 function startQuiz(category) {
   currentCategory = category;
@@ -131,3 +131,4 @@ function endQuiz() {
   document.getElementById('result-section').classList.remove('hidden');
   document.getElementById('score').textContent = `Your Score: ${score}/10`;
 }
+
